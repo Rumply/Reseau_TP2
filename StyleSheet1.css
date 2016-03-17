@@ -1,0 +1,6 @@
+﻿body
+{
+    <Style x:Key="TextColor" TargetType="{x:Type Label}">
+        <Setter Property="ForeColor" Value="RED" />
+    </Style>
+}

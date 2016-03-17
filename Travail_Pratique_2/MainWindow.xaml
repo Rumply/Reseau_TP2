@@ -17,33 +17,38 @@
             <ColumnDefinition />
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <ListView x:Name="list_message" Grid.Row="0" Grid.ColumnSpan="4" Height="200" Width="750" Margin="10,10,10,0" MaxWidth="745" Focusable="False" IsHitTestVisible="False" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
-            <ListView.View>
-                <GridView AllowsColumnReorder="False">
-                    <GridViewColumn Header="prefix" Width="200">
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <WrapPanel>
-                                    <TextBlock Text="&lt;"/>
-                                    <TextBlock Text="{Binding prefix.Text}" Foreground="Orange" HorizontalAlignment="Left" />
-                                    <TextBlock Text="&gt;"/>
-                                </WrapPanel>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
-                    <GridViewColumn Header="message" Width="550" >
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBlock  Text="{Binding message}"/>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
-                    
-                </GridView>
-            </ListView.View>
-            
-            <Label x:Name="contenu_message" />
-        </ListView>
+        <ScrollViewer x:Name="scroll" Grid.Row="0" Grid.ColumnSpan="4" Height="200" Width="750">
+            <ListView x:Name="list_message" Height="auto" Width="730" MaxWidth="745"
+                      IsHitTestVisible="False" HorizontalAlignment="Left"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView.View>
+                    <GridView AllowsColumnReorder="False" >
+                        <GridViewColumn Header="prefix" Width="200">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <WrapPanel>
+                                        <TextBlock Text="&lt;"/>
+                                        <TextBlock Text="{Binding prefix.Text}" Foreground="Orange" HorizontalAlignment="Left" />
+                                        <TextBlock Text="&gt;"/>
+                                    </WrapPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="message" Width="550" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock  Text="{Binding message}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+
+                <Label x:Name="contenu_message" />
+            </ListView>
+        </ScrollViewer>
+        
         <!--<ScrollViewer x:Name="scroll1" Grid.Row="0" Grid.ColumnSpan="4" Height="200" Width="auto" Margin="10,10,10,0"
 			VerticalScrollBarVisibility="Visible" BorderThickness="1,0,0,0" CanContentScroll="True" ScrollChanged="message_scroll_ScrollChanged" >
             <TextBlock  x:Name="message_Panel"

@@ -26,3 +26,17 @@ C:\Users\Guillaume\Documents\Ecole\Reseau\Travail_Pratique_2\Travail_Pratique_2\
 C:\Users\Guillaume\Documents\Ecole\Reseau\Travail_Pratique_2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.g.resources
 C:\Users\Guillaume\Documents\Ecole\Reseau\Travail_Pratique_2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.Properties.Resources.resources
 C:\Users\Guillaume\Documents\Ecole\Reseau\Travail_Pratique_2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.csproj.GenerateResource.Cache
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\bin\Debug\Travail_Pratique_2.exe.config
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.exe
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.pdb
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\bin\Debug\Travail_Pratique_2.exe
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\bin\Debug\Travail_Pratique_2.pdb
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.csprojResolveAssemblyReference.cache
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\MainWindow.g.cs
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\App.g.cs
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2_MarkupCompile.cache
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2_MarkupCompile.lref
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\MainWindow.baml
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.g.resources
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.Properties.Resources.resources
+C:\Users\Rumpl_000\Documents\Ecole\Reseau_TP2\Travail_Pratique_2\obj\Debug\Travail_Pratique_2.csproj.GenerateResource.Cache

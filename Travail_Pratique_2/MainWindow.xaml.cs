@@ -29,6 +29,7 @@ namespace Travail_Pratique_2
         private int name_minLenght;
         private int name_maxLenght;
         private IPAddress connect_ip;
+        private int nbMessage;
 
         public MainWindow()
         {
@@ -38,10 +39,12 @@ namespace Travail_Pratique_2
             nouveau = true;
             name_minLenght = 3;
             name_maxLenght = 30;
+            nbMessage = 0;
+
+            BTN_send.IsEnabled = false;
 
             input_text.MaxLength = name_maxLenght;
-
-            
+            list_message.Items.Clear();
             addHotKeys();
         }
 
@@ -158,6 +161,7 @@ namespace Travail_Pratique_2
                                                     + name_minLenght +
                                               " à " + name_maxLenght +
                                               " caractères)");
+                BTN_send.IsEnabled = true;
             }
             
             
@@ -168,14 +172,18 @@ namespace Travail_Pratique_2
             String name;
             name = "Système";
             this.list_message.Items.Add(new row_template(name, a_message));
+            nbMessage = nbMessage + 1;
+            scroll.ScrollToBottom();
         }
 
         private void send_message(String a_message)
         {
             TextBlock message = new TextBlock();
             
-            a_message = (a_message + "\n");
             this.list_message.Items.Add(new row_template(username, a_message));
+            nbMessage = nbMessage + 1;
+            
+            scroll.ScrollToBottom();
         }
         
         private Boolean new_connection()
@@ -208,6 +216,7 @@ namespace Travail_Pratique_2
         {
             input_text.Clear();
         }
+        
     }
 
 }
